@@ -1,4 +1,4 @@
-
+//index.js
 
 const express = require("express");
 const sai = express();
@@ -17,4 +17,5 @@ sai.get("/login", (req, res) => {
 
 sai.listen(3000, () => {
     console.log("Server is started at the locahost:3000")
+
 })
