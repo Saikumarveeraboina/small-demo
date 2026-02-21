@@ -1,7 +1,6 @@
 
 const express = require("express");
 const sai = express();
-
 sai.get("/", (req, res) => {
     res.send("Welcome to server Saikumar>>>>>>>")
 })
@@ -16,5 +15,6 @@ sai.get("/login", (req, res) => {
 sai.listen(3000, () => {
     console.log("Server is started at the locahost:3000")
 })
+
 
 
